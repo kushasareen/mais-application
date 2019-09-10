@@ -38,7 +38,7 @@ avg.append(mortgage_sum/num_mortgage)
 avg.append(own_sum/num_own)
 avg.append(rent_sum/num_rent)
 
-with open(r'C:\Users\kusha\Desktop\average_loans.csv', mode='w') as csv_file:
+with open(r'C:\Users\kusha\Desktop\average_loans.csv', mode='w', newline='') as csv_file:
     fieldnames = ['home_ownership', 'loan_amnt']
     csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
 
