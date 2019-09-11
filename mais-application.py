@@ -32,10 +32,6 @@ for key in loan_dict:
         num_rent += 1
         rent_sum += int(loan_dict[key][0])
 
-mortgage_avg = mortgage_sum/num_mortgage
-own_avg = own_sum/num_own
-rent_avg = rent_sum/num_rent
-
 # store averages in a list
 avg = []
 avg.append(mortgage_sum/num_mortgage)
